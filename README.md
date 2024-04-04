@@ -4,6 +4,10 @@ Find the achilles heel(s) of your system. Scans the libraries and binaries in yo
 determines which libraries they depend on, and lists the libraries in the order of most used to
 least used.
 
+![Demo](./achilles.gif)
+
+![Example](./achilles.png)
+
 ## Running
 
 Download one of the [releases](https://github.com/cocreators-ee/achilles/releases) as `achilles`,
