@@ -72,7 +72,6 @@ func (m *Model) searchFiles(searchPath string, files chan string, filesWg *sync.
 
 		return nil
 	})
-
 	if err != nil {
 		m.addMessage(err.Error())
 	}
