@@ -1,0 +1,5 @@
+[*.md]
+indent_size = 2
+
+[*.go]
+indent_size = 4
