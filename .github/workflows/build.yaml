@@ -37,14 +37,6 @@ jobs:
         run: |
           GOARCH=arm64 go build -o artifacts/achilles-linux-arm64
 
-      - name: Build for Windows amd64
-        run: |
-          GOOS=windows GOARCH=amd64 go build -o artifacts/achilles-windows-amd64.exe
-
-      - name: Build for Windows arm64
-        run: |
-          GOOS=windows GOARCH=arm64 go build -o artifacts/achilles-windows-arm64.exe
-
       # TODO: macOS build
 
       - name: Archive build artifacts
